@@ -24,7 +24,7 @@ public class Client implements Serializable{
 	private Double income;
 	private Integer children;
 	
-	@Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
+	@Column(columnDefinition = "TIMESTAMP WITH TIME ZONE")
 	private Instant birthDate;
 
 	public Client() {
